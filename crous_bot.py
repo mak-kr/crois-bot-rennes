@@ -11,10 +11,7 @@ from bs4 import BeautifulSoup
 # ------------------------------------------------------------------
 # CONFIGURATION
 # ------------------------------------------------------------------
-SEARCH_URL = (
-    "https://trouverunlogement.lescrous.fr/tools/47/search"
-    "?bounds=-1.7525876_48.1549705_-1.6244045_48.0769155&locationName=Rennes"
-)
+SEARCH_URL = "https://trouverunlogement.lescrous.fr/tools/47/search"
  
 # Le token et le chat_id sont lus depuis les variables d'environnement
 # (fournies par les GitHub Secrets), jamais écrits en dur dans le code.
